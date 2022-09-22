@@ -13,3 +13,14 @@ else {
 
 /* -------------------Exercise #2 ------------------------*/
 
+const favoriteFood = ['burger', 'banana', 'baked cake', 'broccoli']
+
+function randomFood(){
+
+    const random = favoriteFood[Math.floor(Math.random() * favoriteFood.length)];
+    console.log(random)
+}
+randomFood();
+
+
+/* -------------------Exercise #3 ------------------------*/
