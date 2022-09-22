@@ -70,9 +70,9 @@ degRadian();
 
 
 
-function getBox (width, heihgt, depth){
-    let area = width*heihgt ;
-    let volume = width*heihgt*depth ;
+function getBox (width, height, depth){
+    let area = width*height ;
+    let volume = width*height*depth ;
 
     return `The area of the box is: ${area}
     The volume of the box is: ${volume}`;
